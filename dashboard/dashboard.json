@@ -1,0 +1,778 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1541855684477,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "035de90e-020f-4a94-8480-1ff34b00381e",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/VMware ESXi Host Performance",
+      "namePath": "Custom Dashboards",
+      "rank": 343,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "4142bf9c-6865-402b-b51d-f3df7e43bba4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "70e6822b-e6c0-462c-9652-88610afaed60"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "f73d2629-4255-4552-9729-bdcc103e8c78"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "19a24d0f-1053-4359-8a37-a476d9a4cbbf"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "813f7cce-a29f-4a24-87dd-c940d0ea128d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "a379a751-bd87-49db-a2a5-c565f36d9e01"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "1fd67802-a452-4db2-ae2c-40a18b0f420b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "a24f9f9d-f7fa-4f07-82da-406ec636dfd4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "widgetIdReceiver": "689b2f4c-adac-4719-9bf8-8720c5c7c1e8"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Version",
+                  "metricKey": "summary|version",
+                  "metricName": "Summary|Version",
+                  "resourceKindId": "resourceKind:id:0_::_"
+               }],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "ESXi Hosts"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "807afc0a-fe33-4f5a-9852-f28a87498f33",
+            "states": [{
+               "key": "permResGrid_widget_035de90e-020f-4a94-8480-1ff34b00381e_807afc0a-fe33-4f5a-9852-f28a87498f33",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A294%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A123%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A138%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ewidth%25253Dn%2525253A149%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "ESXi Hosts",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel7706-1",
+                     "isStringMetric": false,
+                     "metricKey": "cpu|usage_average",
+                     "metricName": "CPU|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Host System",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "ESXi Host CPU Usage (for selected ESXi Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 324,
+            "id": "4142bf9c-6865-402b-b51d-f3df7e43bba4",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_035de90e-020f-4a94-8480-1ff34b00381e_4142bf9c-6865-402b-b51d-f3df7e43bba4",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "ESXi Host CPU Usage (for selected ESXi Host)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel9770-1",
+                     "isStringMetric": false,
+                     "metricKey": "mem|usage_average",
+                     "metricName": "Memory|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Host System",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "ESXi Host Memory Usage (for selected ESXi Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 324,
+            "id": "70e6822b-e6c0-462c-9652-88610afaed60",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_035de90e-020f-4a94-8480-1ff34b00381e_70e6822b-e6c0-462c-9652-88610afaed60",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "ESXi Host Memory Usage (for selected ESXi Host)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Object Relationship"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 7
+            },
+            "height": 267,
+            "id": "f73d2629-4255-4552-9729-bdcc103e8c78",
+            "states": [{
+               "key": "permResourceRelationship_widget_035de90e-020f-4a94-8480-1ff34b00381e_f73d2629-4255-4552-9729-bdcc103e8c78",
+               "value": "o%3A"
+            }],
+            "title": "Object Relationship",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Capacity Remaining"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 7
+            },
+            "height": 267,
+            "id": "19a24d0f-1053-4359-8a37-a476d9a4cbbf",
+            "title": "Capacity Remaining",
+            "type": "IntSummaryCapacity"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "Alert Volume"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 7
+            },
+            "height": 267,
+            "id": "813f7cce-a29f-4a24-87dd-c940d0ea128d",
+            "title": "Alert Volume",
+            "type": "IntSummaryAlertVolume"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-1",
+                        "isStringMetric": false,
+                        "metricKey": "net|received_average",
+                        "metricName": "Network|Data Receive Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-2",
+                        "isStringMetric": false,
+                        "metricKey": "net|transmitted_average",
+                        "metricName": "Network|Data Transmit Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-3",
+                        "isStringMetric": false,
+                        "metricKey": "net|errorsTx_summation",
+                        "metricName": "Network|Error Packets Transmitted",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-4",
+                        "isStringMetric": false,
+                        "metricKey": "net|usage_capacity",
+                        "metricName": "Network|I/O Usage Capacity",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-5",
+                        "isStringMetric": false,
+                        "metricKey": "net|droppedRx_summation",
+                        "metricName": "Network|Received Packets Dropped",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-6",
+                        "isStringMetric": false,
+                        "metricKey": "net|droppedTx_summation",
+                        "metricName": "Network|Transmitted Packets Dropped",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16099-7",
+                        "isStringMetric": false,
+                        "metricKey": "net|usage_average",
+                        "metricName": "Network|Usage Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22866-1",
+                        "isStringMetric": false,
+                        "metricKey": "net:Aggregate of all instances|droppedPct",
+                        "metricName": "Network:Aggregate of all instances|Packets Dropped",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel22866-2",
+                        "isStringMetric": false,
+                        "metricKey": "net:Aggregate of all instances|packetsTxPerSec",
+                        "metricName": "Network:Aggregate of all instances|Packets Transmitted per second",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "ESXi Host Network Performance",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 12
+            },
+            "height": 267,
+            "id": "1fd67802-a452-4db2-ae2c-40a18b0f420b",
+            "title": "ESXi Host Network Performance",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-1",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|demand_oio",
+                        "metricName": "Datastore|Outstanding IO requests",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-2",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|numberReadAveraged_average",
+                        "metricName": "Datastore|Read IOPS",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-3",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|read_average",
+                        "metricName": "Datastore|Read Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-4",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|totalLatency_max",
+                        "metricName": "Datastore|Total Latency Max",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-5",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|numberWriteAveraged_average",
+                        "metricName": "Datastore|Write IOPS",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15507-6",
+                        "isStringMetric": false,
+                        "metricKey": "datastore|write_average",
+                        "metricName": "Datastore|Write Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Related Datastore Performance",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 12
+            },
+            "height": 267,
+            "id": "a379a751-bd87-49db-a2a5-c565f36d9e01",
+            "title": "Related Datastore Performance",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-1",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-2",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|demandPct",
+                        "metricName": "CPU|Demand",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-3",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|iowait",
+                        "metricName": "CPU|IO Wait",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-4",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|ready_summation",
+                        "metricName": "CPU|Ready",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-5",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|swapwait_summation",
+                        "metricName": "CPU|Swap Wait",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16715-6",
+                        "isStringMetric": false,
+                        "metricKey": "cpu|wait",
+                        "metricName": "CPU|Total Wait",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "CPU Performance Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 17
+            },
+            "height": 210,
+            "id": "a24f9f9d-f7fa-4f07-82da-406ec636dfd4",
+            "title": "CPU Performance Scoreboard",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-1",
+                        "isStringMetric": false,
+                        "metricKey": "mem|vmmemctl_average",
+                        "metricName": "Memory|Balloon",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-2",
+                        "isStringMetric": false,
+                        "metricKey": "mem|host_contentionPct",
+                        "metricName": "Memory|Contention",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-3",
+                        "isStringMetric": false,
+                        "metricKey": "mem|swapinRate_average",
+                        "metricName": "Memory|Swap In Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-4",
+                        "isStringMetric": false,
+                        "metricKey": "mem|swapout_average",
+                        "metricName": "Memory|Swap Out",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-5",
+                        "isStringMetric": false,
+                        "metricKey": "mem|swapoutRate_average",
+                        "metricName": "Memory|Swap Out Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel17756-6",
+                        "isStringMetric": false,
+                        "metricKey": "mem|workload",
+                        "metricName": "Memory|Workload",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Host System",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Memory Performance Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 17
+            },
+            "height": 210,
+            "id": "689b2f4c-adac-4719-9bf8-8720c5c7c1e8",
+            "title": "Memory Performance Scoreboard",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "VMWARE",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "HostSystem"
+   }]},
+   "uuid": "3a0b840c-54de-4f5e-9b68-98fef9bd686f"
+}
